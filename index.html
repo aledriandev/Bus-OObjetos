@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pasajeros</title>
+
+</head>
+<body>
+	<center>
+	
+		<table border="1" width="400"> Bienvenidos...!
+			<tr>
+				<td>04</td><td>08</td><td>12</td><td>16</td><td>20</td><td>24</td><td>28</td><td>32</td>
+			</tr>
+			<tr>
+			    <td>03</td><td>07</td><td>11</td><td>15</td><td>19</td><td>23</td><td>27</td><td>31</td>
+			</tr>
+		</table><br>
+		<table border="1" width="400">
+			<tr>
+			    <td>02</td><td>06</td><td>10</td><td>14</td><td>18</td><td>22</td><td>26</td><td>30</td>
+			</tr>
+			<tr>
+			    <td>01</td><td>05</td><td>09</td><td>13</td><td>17</td><td>21</td><td>25</td><td>29</td>
+			</tr>
+		</table><br>
+		<div id="mostrar">Seleccione un asiento..!</div>
+		<p>
+			Buscar Usuario<br>
+			DNI:
+			<input type="number" id="DNI">
+			<button  id = "buttonBuscar">Buscar</button>
+		</p>
+		<p>
+			Usuario Nuevo:<br>
+			<input type="text" id="nombre" placeholder="Nombre de Usuario"><br>
+			<input type="text" id="apellido" placeholder="Apellido de Usuario"><br>
+			<input type="number" id="dni" placeholder="DNI de Usuario"><br>
+			
+		</p>
+		<p>
+			<button id = "buttonReservar" >Reservar</button>
+			<button id = "buttonCancelar">Cancelar</button>
+		</p>
+		<p>
+			<button id = "buttonListar">Listar</button>
+		</p>
+		<div id="lista"></div>		
+	</center>
+	<script src="assets/js/mani.js"></script>
+</body>
+</html>
